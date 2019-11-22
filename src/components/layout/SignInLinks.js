@@ -2,7 +2,7 @@ import React from 'react';
 import {NavLink} from 'react-router-dom'
 
 export const SignInLinks = () => {
-   return(
+   return (
         <ul className="right">
                 <li>
                 <NavLink to='/'>New Project</NavLink>
@@ -11,7 +11,7 @@ export const SignInLinks = () => {
                    <NavLink to='/'>Log Out</NavLink>
                 </li>           
                 <li>
-                    <NavLink to='/' className="btn btn-floating pink lighten-1">NN</NavLink>
+                    <NavLink to='/' className="btn btn-floating pink lighten-1">SJL</NavLink>
                </li>
         </ul>
    )

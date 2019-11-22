@@ -5,9 +5,9 @@ import SignOutLinks from '../../components/layout/SignOutLinks'
 
 const Navbar = () => {
    return(
-        <nav className="nav-wrapper grey darken-3">
+        <nav className="nav-wrapper grey darken-3">  
             <div className="container">
-                <Link to='/' className="brand-logo">Buddha Planner</Link>
+                <Link to='/' className="brand-logo left-align left">Buddha Planner</Link>
                 <SignInLinks/>
                 <SignOutLinks/>
             </div>
