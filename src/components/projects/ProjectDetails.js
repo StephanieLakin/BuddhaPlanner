@@ -6,8 +6,8 @@ const ProjectDetails = (props) => {
     console.log(props)
     return(     
 <div className="container section project details">
- <div className="card z-depth-0">
-     <div className="card-content">
+ <div className="card z-depth-0 ">
+     <div className="card-content ">
          <span className="card-title">
              Project Title - {id}
          </span>
