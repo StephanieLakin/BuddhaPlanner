@@ -1,6 +1,7 @@
 import React from'react'
 
-const ProjectSummary = ({project}) => (<div>
+const ProjectSummary = ({project}) => {
+    return (<div>
     <div className="project-list section">
         <div className="card z-depth-o project-summary">
             <div className="card-content pink lighten-3 hoverable">
@@ -11,5 +12,6 @@ const ProjectSummary = ({project}) => (<div>
         </div>
     </div>
 </div>)
+} 
 
 export default ProjectSummary

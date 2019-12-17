@@ -19,7 +19,7 @@ const store = createStore(rootReducer,
         reactReduxFirebase(firebaseConfig)
     )
 );
-
+ 
 
 ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById('root'));
 

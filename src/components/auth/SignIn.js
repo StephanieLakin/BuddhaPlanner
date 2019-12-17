@@ -11,13 +11,13 @@ import React, { Component } from 'react'
          })
      }
      handleSubmit = (e) => {
-        // e.preventDefault();
+         e.preventDefault();
          console.log(this.state)
      }
     render() {
         return (
             <div className="container">
-                 <form onSubmit={this.handleSubmit} className="white">
+                 <form className="white" onSubmit={this.handleSubmit}>
                  <h5 className="grey-text text-darken">Sign In</h5>
                  <div className="input-field">
                      <label htmlFor="email" >Email</label>
