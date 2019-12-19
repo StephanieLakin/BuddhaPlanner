@@ -1,4 +1,4 @@
-const initState = {  
+const initState = {
     //dummy data
     // projects: [
     //     {id: '1', title: 'Peace on Earth', content: 'Teachings of the Buddha'},
@@ -9,14 +9,14 @@ const initState = {
 
 const projectReducer = (state = initState, action) => {
     // eslint-disable-next-line default-case
-    switch  (action.type) {
+    switch (action.type) {
         case 'CREATE_PROJECT_SUCCESS':
-        console.log('create project', action.project);
-        return state;
+            console.log('create project', action.project);
+            return state;
         case 'CREATE_PROJECT_ERROR':
             console.log('create project error', action.err);
             return state;
-            default: 
+        default:
             return state;
     }
 }

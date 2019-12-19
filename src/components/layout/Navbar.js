@@ -1,17 +1,25 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import SignInLinks from '../../components/layout/SignInLinks'
 import SignOutLinks from '../../components/layout/SignOutLinks'
+import { connect } from 'react-redux'
 
 const Navbar = () => {
-   return(
-        <nav className="nav-wrapper grey darken-3">  
+    return (
+        <nav className="nav-wrapper grey darken-3">
             <div className="container">
                 <Link to='/' className="brand-logo left-align left">Buddha Planner</Link>
-                <SignInLinks/>
-                <SignOutLinks/>
+                <SignInLinks />
+                <SignOutLinks />
             </div>
         </nav>
-   )
+    )
 }
-export default Navbar
+
+const mapStateToProps = (state) => {
+    console.log(state);
+    return {
+
+    }
+}
+export default connect(mapStateToProps)(Navbar)

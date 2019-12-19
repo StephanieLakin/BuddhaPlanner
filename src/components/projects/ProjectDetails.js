@@ -5,7 +5,7 @@ import { compose } from 'redux'
 
 
 const ProjectDetails = (props) => {
-    const {project} = props;
+    const { project } = props;
     if (project) {
         return (
             <div className="container section project details">
@@ -35,7 +35,7 @@ const mapStateToProps = (state, ownProps) => {
     const projects = state.firestore.data.projects;
     const project = projects ? projects[id] : null
     return {
-        project : project
+        project: project
     }
 }
 
