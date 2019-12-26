@@ -9,9 +9,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url(/img/goldenbuddha1.jpg) no-repeat;
-  background-size: 100%; 
-  background-position: bottom;
+  background: url(/img/goldenbuddha1.jpg) no-repeat center;
+  background-size: cover; 
+  background-position: center;
   background-color: rgb(243, 190, 17);
 }
 form{
@@ -20,6 +20,7 @@ form{
 }
 form button, form h5 {
   margin-top: 20px 0;
+  color:white
 }
 
 
