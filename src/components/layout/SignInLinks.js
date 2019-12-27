@@ -8,8 +8,8 @@ export const SignInLinks = (props) => {
         <ul className="right">
                 <li><NavLink to='/createproject'>New Project</NavLink></li>
                 <li><a onClick={props.signOut}>Log Out</a></li>           
-                <li><NavLink to='/' className="btn btn-floating pink lighten-1">
-               SJL
+                <li><NavLink to='/' className="btn btn-floating pink white-text lighten-1">
+                {props.profile.initials}
                 </NavLink></li>
         </ul>
    )

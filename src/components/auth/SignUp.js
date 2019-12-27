@@ -38,12 +38,12 @@ class SignUp extends Component {
                     </div>
                     <div className="input-field">
                         <br />
-                        <label htmlFor="firstName" >  First Name </label>
+                        <label htmlFor="authorFirstName" >  First Name </label>
 
                         <input type="text" id="firstName" onChange={this.handleChange} />
                     </div>
                     <div className="input-field">
-                        <label htmlFor="lastName" >Last Name</label>
+                        <label htmlFor="authorLastName" >Last Name</label>
                         <input type="text" id="lastName" onChange={this.handleChange} />
                     </div>
                     <div className="input-field" >
